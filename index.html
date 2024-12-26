@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCRAPCARWALE</title>
+    <!---CSS ONLINE-->
+    <link rel="stylesheet" href="sanjay.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"  rel="stylesheet" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
+</head>
+<body>
+    <!-----nAVBAR-->
+    <div class="flex justify-center ">
+        <div class="self-center top-0 w-full max-w-7xl ">
+            <div class="flex justify-between items-center text-gray-700">
+                <div class="mx-2 my-4 ">
+                    <img src="Screenshot 2024-06-05 125034.png" style="display: flex;"  alt="mylogo">
+                </div>
+                <ul class="hidden md:flex items-center text-[18px] font-semibold pr-10">
+                    <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
+                            href="#">Home</a></li>
+                    <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a href="#">About
+                            Us</a></li>
+                    <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a href="#">Our
+                            Services</a></li>
+                    <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
+                            href="#">Portfolio</a></li>
+                    <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
+                            href="#">Contact</a></li>
+                    <li
+                        class="text-blue-600 hover:text-white hover:bg-blue-600 mx-4 my-1 border-2 border-blue-600 px-2 rounded-2xl ">
+                        <a href="#">LogIn</a></li>
+                    <li
+                        class="text-white bg-blue-600 px-2 rounded-2xl mx-4 my-1 hover:bg-white hover:text-blue-600 hover:border-2 hover:border-blue-600">
+                        <a href="#">SignUp</a></li>
+                </ul> <button class="block p-3 mx-10 md:hidden hover:bg-gray-200 rounded-xl group">
+                    <div class="w-5 my-[3px] h-[3px] bg-gray-600 mb-[2px]"></div>
+                    <div class="w-5 my-[3px] h-[3px] bg-gray-600 mb-[2px]"></div>
+                    <div class="w-5 my-[3px] h-[3px] bg-gray-600"></div>
+                    <div
+                        class="absolute top-0 -right-full opacity-0 h-screen w-[60%] border bg-white group-focus:right-0 group-focus:opacity-100 transition-all ease-in duration-300 ">
+                        <ul class="flex flex-col items-center text-[18px] pt-[60px]">
+                            <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
+                                    href="#">Home</a></li>
+                            <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
+                                    href="#">About Us</a></li>
+                            <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
+                                    href="#">Our Services</a></li>
+                            <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
+                                    href="#">Portfolio</a></li>
+                            <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
+                                    href="#">Contact</a></li>
+                            <li
+                                class="text-blue-600 hover:text-white hover:bg-blue-600 mx-4 my-1 border-2 border-blue-600 px-2 rounded-2xl ">
+                                <a href="#">LogIn</a></li>
+                            <li
+                                class="text-white bg-blue-600 px-2 rounded-2xl mx-4 my-1 hover:bg-white hover:text-blue-600 hover:border-2 hover:border-blue-600">
+                                <a href="#">SignUp</a></li>
+                        </ul>
+                    </div>
+                </button>
+            </div>
+            
+        </div>
+       </div>
+       <!----CARSEL SHOP-->
+       
+
+<div id="default-carousel" class="relative w-full" data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+         <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="SCRAP1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="SCRAP2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="SCRAP3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 4 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="SCRAP1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="SCRAP2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+    </div>
+    <!-- Slider indicators -->
+    <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div>
+
+       <!----SANJAY JI SHOP VISIT-->
+       <div class="text-500 text-3xl md:text-5xl font-medium lo22" >HOW TO BUY AND SALE ANY CAR TRUCK FROM US</div>
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto flex flex-wrap">
+                <div class="flex flex-wrap w-full">
+                    <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
+                        <div class="flex relative pb-12">
+                            <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                            </div>
+                            <div
+                                class="flex-shrink-0 w-10 h-10 rounded-full bg-green-500 inline-flex items-center justify-center text-white relative z-10">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                </svg>
+                            </div>
+                            <div class="flex-grow pl-4">
+                                <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider lo244">STEP 1</h2>
+                                <p class="leading-relaxed lo21">CONTACT US WE WILL COME TO YOUR LOCATION AND CHECK THE
+                                    QUALITY OF CAR HOME VISIT IS FREE</p>
+                            </div>
+                        </div>
+                        <div class="flex relative pb-12">
+                            <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                            </div>
+                            <div
+                                class="flex-shrink-0 w-10 h-10 rounded-full bg-green-500 inline-flex items-center justify-center text-white relative z-10">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                                </svg>
+                            </div>
+                            <div class="flex-grow pl-4">
+                                <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 2</h2>
+                                <p class="leading-relaxed lo21">WE WILL EXAMINE YOUR CAR FROM OUTSIDE HOW MUCH QUALITY ISSUE
+                                    IN CAR AND WHAT WAS SUFFICENT RATING FOR YOUR CAR</p>
+                            </div>
+                        </div>
+                        <div class="flex relative pb-12">
+                            <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                            </div>
+                            <div
+                                class="flex-shrink-0 w-10 h-10 rounded-full bg-green-500 inline-flex items-center justify-center text-white relative z-10">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                    <circle cx="12" cy="5" r="3"></circle>
+                                    <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+                                </svg>
+                            </div>
+                            <div class="flex-grow pl-4">
+                                <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 3</h2>
+                                <p class="leading-relaxed lo21">WE WILL TOE THE CAR TO OUR GARAGE AND CHECK BY OUR MECHANIC
+                                    HOW IT WORK FROM INSIDE ENGINE ISSUE OR NOT</p>
+                            </div>
+                        </div>
+                        <div class="flex relative pb-12">
+                            <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                            </div>
+                            <div
+                                class="flex-shrink-0 w-10 h-10 rounded-full bg-green-500 inline-flex items-center justify-center text-white relative z-10">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </svg>
+                            </div>
+                            <div class="flex-grow pl-4">
+                                <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 4</h2>
+                                <p class="leading-relaxed lo21">THEN WE WILL VERIFY DOCUMENT OF CAR OWNERSHIP IF ANY FAULT IN
+                                    DOCUMENT WE WILL REJECT THE DEAL AT A TIME</p>
+                            </div>
+                        </div>
+                        <div class="flex relative">
+                            <div
+                                class="flex-shrink-0 w-10 h-10 rounded-full bg-green-500 inline-flex items-center justify-center text-white relative z-10">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                                    <path d="M22 4L12 14.01l-3-3"></path>
+                                </svg>
+                            </div>
+                            <div class="flex-grow pl-4">
+                                <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">FINISH</h2>
+                                <p class="leading-relaxed lo21">ALLL CLEAR NOW GIVE YOUR CAR TO US AND GET DIRECTLY AMOUNT TO
+                                    YOUR ACCOUNT IN 5 MINUTE EASILY</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12 " id="noke"
+                        src="scap.jpg" alt="step IMAGE">
+                        <!-- <img class="moli" src="SCRAPSANJAY.jpg" alt="processss" > -->
+                </div>
+            </div>
+        </section>
+        <!----oUR SERVICES BY SANJAY-->
+        <section class="text-gray-600 body-font SERVI">
+            <div class="container px-5 py-24 mx-auto">
+              <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 suno ">OUR SERVICES CHECK OUT NOW</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base moli1">WHATEVER YOU WANT JUST TAP ON IMAGE AFTER THAT CLICK ON  BUY NOW BUTTON AND GET YOUR ORDER EASILY TO WITHIN A DAY</p>
+              </div>
+              <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                  <div class="flex relative">
+                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center " src="CAR1.jpg">
+                    <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                      <h2 class="tracking-widest text-sm title-font font-medium text-green-500 mb-1"><a href="">CONTACT US</a> </h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">SECOND HAND CAR</h1>
+
+                      <p class="leading-relaxed">Yes You Hear Right In Jamshedpur we Will Provide Cheapest Car At A1 Condition At ypur Budget</p>
+                      <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <svg class="w-3.5 h-3.5 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 21">
+                        <path d="M15 12a1 1 0 0 0 .962-.726l2-7A1 1 0 0 0 17 3H3.77L3.175.745A1 1 0 0 0 2.208 0H1a1 1 0 0 0 0 2h.438l.6 2.255v.019l2 7 .746 2.986A3 3 0 1 0 9 17a2.966 2.966 0 0 0-.184-1h2.368c-.118.32-.18.659-.184 1a3 3 0 1 0 3-3H6.78l-.5-2H15Z"/>
+                        </svg>
+                        <a href="https://api.whatsapp.com/send?phone=919835964175&text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%B8%E0%A4%82%E0%A4%9C%E0%A4%AF%20%E0%A4%9A%E0%A4%82%E0%A4%A6%E0%A5%8D%E0%A4%B0%E0%A4%B5%E0%A4%82%E0%A4%B6%E0%A5%80%20%E0%A4%AE%E0%A5%88%E0%A4%82%20%E0%A4%85%E0%A4%AD%E0%A5%80%20%E0%A4%86%E0%A4%AA%E0%A4%95%E0%A5%80%20%E0%A4%B5%E0%A5%87%E0%A4%AC%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%9F%20%E0%A4%AA%E0%A4%B0%20%E0%A4%B9%E0%A5%82%E0%A4%82%20%E0%A4%95%E0%A5%8D%E0%A4%AF%E0%A4%BE%20%E0%A4%86%E0%A4%AA%20%E0%A4%AE%E0%A5%87%E0%A4%B0%E0%A5%80%20%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%A8%20%E0%A4%96%E0%A4%B0%E0%A5%80%E0%A4%A6%E0%A4%A8%E0%A5%87%20%E0%A4%AE%E0%A5%87%E0%A4%82%20%E0%A4%AE%E0%A4%A6%E0%A4%A6%20%E0%A4%95%E0%A4%B0%20%E0%A4%B8%E0%A4%95%E0%A4%A4%E0%A5%87%20%E0%A4%B9%E0%A5%88%E0%A4%82%F0%9F%99%8F%F0%9F%91%8D"class="target"> BUY Now</a>
+                        </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                  <div class="flex relative">
+                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="CARPART.jpg">
+                    <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                      <h2 class="tracking-widest text-sm title-font font-medium text-green-500 mb-1"><a href="">Contact Us</a></h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">All Car Second Hand Part</h1>
+                      <p class="leading-relaxed">Wwe Will provide all Second hand part of car old to new Part Available at Wholesale Price</p>
+                      <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <svg class="w-3.5 h-3.5 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 21">
+                        <path d="M15 12a1 1 0 0 0 .962-.726l2-7A1 1 0 0 0 17 3H3.77L3.175.745A1 1 0 0 0 2.208 0H1a1 1 0 0 0 0 2h.438l.6 2.255v.019l2 7 .746 2.986A3 3 0 1 0 9 17a2.966 2.966 0 0 0-.184-1h2.368c-.118.32-.18.659-.184 1a3 3 0 1 0 3-3H6.78l-.5-2H15Z"/>
+                        </svg>
+                        <a href="https://api.whatsapp.com/send?phone=919835964175&text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%B8%E0%A4%82%E0%A4%9C%E0%A4%AF%20%E0%A4%9A%E0%A4%82%E0%A4%A6%E0%A5%8D%E0%A4%B0%E0%A4%B5%E0%A4%82%E0%A4%B6%E0%A5%80%20%E0%A4%AE%E0%A5%88%E0%A4%82%20%E0%A4%85%E0%A4%AD%E0%A5%80%20%E0%A4%86%E0%A4%AA%E0%A4%95%E0%A5%80%20%E0%A4%B5%E0%A5%87%E0%A4%AC%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%9F%20%E0%A4%AA%E0%A4%B0%20%E0%A4%B9%E0%A5%82%E0%A4%82%20%E0%A4%95%E0%A5%8D%E0%A4%AF%E0%A4%BE%20%E0%A4%86%E0%A4%AA%20%E0%A4%AE%E0%A5%87%E0%A4%B0%E0%A5%80%20%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%A8%20%E0%A4%96%E0%A4%B0%E0%A5%80%E0%A4%A6%E0%A4%A8%E0%A5%87%20%E0%A4%AE%E0%A5%87%E0%A4%82%20%E0%A4%AE%E0%A4%A6%E0%A4%A6%20%E0%A4%95%E0%A4%B0%20%E0%A4%B8%E0%A4%95%E0%A4%A4%E0%A5%87%20%E0%A4%B9%E0%A5%88%E0%A4%82%F0%9F%99%8F%F0%9F%91%8D"class="target"> BUY Now</a>
+                        </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                  <div class="flex relative">
+                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="carpart1.jpg">
+                    <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                      <h2 class="tracking-widest text-sm title-font font-medium text-green-500 mb-1"><a href="">Contact Us</a></h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">CAR All Internal External Part</h1>
+                      <p class="leading-relaxed">We Provide All Part Of internal Car Like Body Gate Indicator speedometer and Many more</p>
+                      <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <svg class="w-3.5 h-3.5 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 21">
+                        <path d="M15 12a1 1 0 0 0 .962-.726l2-7A1 1 0 0 0 17 3H3.77L3.175.745A1 1 0 0 0 2.208 0H1a1 1 0 0 0 0 2h.438l.6 2.255v.019l2 7 .746 2.986A3 3 0 1 0 9 17a2.966 2.966 0 0 0-.184-1h2.368c-.118.32-.18.659-.184 1a3 3 0 1 0 3-3H6.78l-.5-2H15Z"/>
+                        </svg>
+                        <a href="https://api.whatsapp.com/send?phone=919835964175&text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%B8%E0%A4%82%E0%A4%9C%E0%A4%AF%20%E0%A4%9A%E0%A4%82%E0%A4%A6%E0%A5%8D%E0%A4%B0%E0%A4%B5%E0%A4%82%E0%A4%B6%E0%A5%80%20%E0%A4%AE%E0%A5%88%E0%A4%82%20%E0%A4%85%E0%A4%AD%E0%A5%80%20%E0%A4%86%E0%A4%AA%E0%A4%95%E0%A5%80%20%E0%A4%B5%E0%A5%87%E0%A4%AC%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%9F%20%E0%A4%AA%E0%A4%B0%20%E0%A4%B9%E0%A5%82%E0%A4%82%20%E0%A4%95%E0%A5%8D%E0%A4%AF%E0%A4%BE%20%E0%A4%86%E0%A4%AA%20%E0%A4%AE%E0%A5%87%E0%A4%B0%E0%A5%80%20%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%A8%20%E0%A4%96%E0%A4%B0%E0%A5%80%E0%A4%A6%E0%A4%A8%E0%A5%87%20%E0%A4%AE%E0%A5%87%E0%A4%82%20%E0%A4%AE%E0%A4%A6%E0%A4%A6%20%E0%A4%95%E0%A4%B0%20%E0%A4%B8%E0%A4%95%E0%A4%A4%E0%A5%87%20%E0%A4%B9%E0%A5%88%E0%A4%82%F0%9F%99%8F%F0%9F%91%8D"class="target"> BUY Now</a>
+
+                        </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                  <div class="flex relative">
+                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="nick-night-i_ZGDsoFcFQ-unsplash.jpg">
+                    <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                      <h2 class="tracking-widest text-sm title-font font-medium text-green-500 mb-1">CONTACT Us</h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Sell Your Dead NonRunning Car</h1>
+                      <p class="leading-relaxed">Yes We Pay For Your Dead Car Also You Can Easily Sale Dead Car </p>
+                      <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <svg class="w-3.5 h-3.5 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 21">
+                        <path d="M15 12a1 1 0 0 0 .962-.726l2-7A1 1 0 0 0 17 3H3.77L3.175.745A1 1 0 0 0 2.208 0H1a1 1 0 0 0 0 2h.438l.6 2.255v.019l2 7 .746 2.986A3 3 0 1 0 9 17a2.966 2.966 0 0 0-.184-1h2.368c-.118.32-.18.659-.184 1a3 3 0 1 0 3-3H6.78l-.5-2H15Z"/>
+                        </svg>
+                        <a href="https://api.whatsapp.com/send?phone=919835964175&text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%B8%E0%A4%82%E0%A4%9C%E0%A4%AF%20%E0%A4%9A%E0%A4%82%E0%A4%A6%E0%A5%8D%E0%A4%B0%E0%A4%B5%E0%A4%82%E0%A4%B6%E0%A5%80%20%E0%A4%AE%E0%A5%88%E0%A4%82%20%E0%A4%85%E0%A4%AD%E0%A5%80%20%E0%A4%86%E0%A4%AA%E0%A4%95%E0%A5%80%20%E0%A4%B5%E0%A5%87%E0%A4%AC%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%9F%20%E0%A4%AA%E0%A4%B0%20%E0%A4%B9%E0%A5%82%E0%A4%82%20%E0%A4%95%E0%A5%8D%E0%A4%AF%E0%A4%BE%20%E0%A4%86%E0%A4%AA%20%E0%A4%AE%E0%A5%87%E0%A4%B0%E0%A5%80%20%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%A8%20%E0%A4%96%E0%A4%B0%E0%A5%80%E0%A4%A6%E0%A4%A8%E0%A5%87%20%E0%A4%AE%E0%A5%87%E0%A4%82%20%E0%A4%AE%E0%A4%A6%E0%A4%A6%20%E0%A4%95%E0%A4%B0%20%E0%A4%B8%E0%A4%95%E0%A4%A4%E0%A5%87%20%E0%A4%B9%E0%A5%88%E0%A4%82%F0%9F%99%8F%F0%9F%91%8D"class="target"> Sale Now</a>
+                        </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                  <div class="flex relative">
+                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="bikescrap.jpg">
+                    <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                      <h2 class="tracking-widest text-sm title-font font-medium text-green-500 mb-1">Contact Us</h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Sell Your Old Dead Bike </h1>
+                      <p class="leading-relaxed">Sell Your Bike Old Bike Non runner Also At goood Price With Us At good rate</p>
+                      <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <svg class="w-3.5 h-3.5 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 21">
+                        <path d="M15 12a1 1 0 0 0 .962-.726l2-7A1 1 0 0 0 17 3H3.77L3.175.745A1 1 0 0 0 2.208 0H1a1 1 0 0 0 0 2h.438l.6 2.255v.019l2 7 .746 2.986A3 3 0 1 0 9 17a2.966 2.966 0 0 0-.184-1h2.368c-.118.32-.18.659-.184 1a3 3 0 1 0 3-3H6.78l-.5-2H15Z"/>
+                        </svg>
+                        <a href="https://api.whatsapp.com/send?phone=919835964175&text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%B8%E0%A4%82%E0%A4%9C%E0%A4%AF%20%E0%A4%9A%E0%A4%82%E0%A4%A6%E0%A5%8D%E0%A4%B0%E0%A4%B5%E0%A4%82%E0%A4%B6%E0%A5%80%20%E0%A4%AE%E0%A5%88%E0%A4%82%20%E0%A4%85%E0%A4%AD%E0%A5%80%20%E0%A4%86%E0%A4%AA%E0%A4%95%E0%A5%80%20%E0%A4%B5%E0%A5%87%E0%A4%AC%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%9F%20%E0%A4%AA%E0%A4%B0%20%E0%A4%B9%E0%A5%82%E0%A4%82%20%E0%A4%95%E0%A5%8D%E0%A4%AF%E0%A4%BE%20%E0%A4%86%E0%A4%AA%20%E0%A4%AE%E0%A5%87%E0%A4%B0%E0%A5%80%20%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%A8%20%E0%A4%96%E0%A4%B0%E0%A5%80%E0%A4%A6%E0%A4%A8%E0%A5%87%20%E0%A4%AE%E0%A5%87%E0%A4%82%20%E0%A4%AE%E0%A4%A6%E0%A4%A6%20%E0%A4%95%E0%A4%B0%20%E0%A4%B8%E0%A4%95%E0%A4%A4%E0%A5%87%20%E0%A4%B9%E0%A5%88%E0%A4%82%F0%9F%99%8F%F0%9F%91%8D"class="target"> Sale Now</a>
+                        </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                  <div class="flex relative">
+                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="honda.jpg">
+                    <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                      <h2 class="tracking-widest text-sm title-font font-medium text-green-500 mb-1">Contact US</h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Buy All Bike Spare Part</h1>
+                      <p class="leading-relaxed">At Wholsale Part New To old all Model Available Just Buy From Us Best In Jamshedpur</p>
+                      <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <svg class="w-3.5 h-3.5 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 21">
+                        <path d="M15 12a1 1 0 0 0 .962-.726l2-7A1 1 0 0 0 17 3H3.77L3.175.745A1 1 0 0 0 2.208 0H1a1 1 0 0 0 0 2h.438l.6 2.255v.019l2 7 .746 2.986A3 3 0 1 0 9 17a2.966 2.966 0 0 0-.184-1h2.368c-.118.32-.18.659-.184 1a3 3 0 1 0 3-3H6.78l-.5-2H15Z"/>
+                        </svg>
+                        <a href="https://api.whatsapp.com/send?phone=919835964175&text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%B8%E0%A4%82%E0%A4%9C%E0%A4%AF%20%E0%A4%9A%E0%A4%82%E0%A4%A6%E0%A5%8D%E0%A4%B0%E0%A4%B5%E0%A4%82%E0%A4%B6%E0%A5%80%20%E0%A4%AE%E0%A5%88%E0%A4%82%20%E0%A4%85%E0%A4%AD%E0%A5%80%20%E0%A4%86%E0%A4%AA%E0%A4%95%E0%A5%80%20%E0%A4%B5%E0%A5%87%E0%A4%AC%E0%A4%B8%E0%A4%BE%E0%A4%87%E0%A4%9F%20%E0%A4%AA%E0%A4%B0%20%E0%A4%B9%E0%A5%82%E0%A4%82%20%E0%A4%95%E0%A5%8D%E0%A4%AF%E0%A4%BE%20%E0%A4%86%E0%A4%AA%20%E0%A4%AE%E0%A5%87%E0%A4%B0%E0%A5%80%20%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%A8%20%E0%A4%96%E0%A4%B0%E0%A5%80%E0%A4%A6%E0%A4%A8%E0%A5%87%20%E0%A4%AE%E0%A5%87%E0%A4%82%20%E0%A4%AE%E0%A4%A6%E0%A4%A6%20%E0%A4%95%E0%A4%B0%20%E0%A4%B8%E0%A4%95%E0%A4%A4%E0%A5%87%20%E0%A4%B9%E0%A5%88%E0%A4%82%F0%9F%99%8F%F0%9F%91%8D"class="target"> Sale Now</a>
+
+                        </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!----our customer Review-->
+          <div class="flex justify-center  p-4">
+            <div class="flex flex-col justify-center items-center ">
+                <div class="text-stone-600  font-medium">Testimonials</div>
+                <div class="text-green-500 text-3xl md:text-5xl font-medium">What Our Clients </div>
+                <div class="text-stone-600 my-4 md:font-medium text-center w-3/4 md:w-1/2">We place huge value on our
+                    relationships and have seen the benefit they bring to our business. Customer feedback is vital in
+                    helping growing Business</div>
+                <div class="flex flex-col md:flex-row max-w-7xl justify-center items-center ">
+    
+                    <div class="overflow-hidden w-full m-4 flex justify-center rounded-lg  md:w-[33%] px-8">
+    
+                        <div class="flex flex-col md:flex-row items-center justify-center  ">
+                            <div class="  items-center justify-center flex py-2">
+                                <div class="flex flex-col  items-center justify-center text-center">
+                                    <img src="https://source.unsplash.com/100x100/?gentelman" alt="" class="rounded-full" />
+                                    <div class="text-stone-500  m-2"> "As a mechanic, finding a reliable supplier for car and bike parts is crucial for my business. Sanjay's shop has become my trusted partner in Jamshedpur. Not only does he offer top-quality parts at wholesale rates, but he also buys dead vehicles at competitive prices. Sanjay's professionalism and integrity shine through in every transaction, making him the best in the business."</div>
+                                    <div class="font-bold text-green-500">Munna Prasad</div>
+                                    <div class="text-sm font-medium text-stone-500 hover:text-green-500"><a href="#">Board
+                                            Bike mechanic Aditaypur</a></div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+                    <div class="overflow-hidden w-full m-4 flex justify-center rounded-lg  md:w-[33%] px-8">
+    
+                        <div class="flex flex-col md:flex-row items-center justify-center  ">
+                            <div class="  items-center justify-center flex py-2">
+                                <div class="flex flex-col  items-center justify-center text-center">
+                                    <img src="https://source.unsplash.com/100x100/?girl" alt="" class="rounded-full" />
+                                    <div class="text-stone-500  m-2"> 
+                                        "Sanjay Chandrawansi's shop is a lifesaver for car and bike owners in Jamshedpur. Whether you need spare parts at wholesale prices or want to get rid of a dead vehicle, Sanjay has got you covered. His honesty and transparency set him apart from other dealers in the area. I highly recommend Sanjay's shop to anyone looking for quality products and fair deals in Jharkhand.".</div>
+                                    <div class="font-bold text-green-500">Ashwini Kumar</div>
+                                    <div class="text-sm font-medium text-stone-500 hover:text-green-500"><a
+                                            href="#">Garage Gaw</a></div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+                    <div class="overflow-hidden w-full m-4 flex justify-center rounded-lg  md:w-[33%] px-8">
+    
+                        <div class="flex flex-col md:flex-row items-center justify-center  ">
+                            <div class="  items-center justify-center flex py-2">
+                                <div class="flex flex-col  items-center justify-center text-center">
+                                    <img src="https://source.unsplash.com/100x100/?boy" alt="" class="rounded-full" />
+                                    <div class="text-stone-500  m-2"> "I've never had a better experience than shopping at Sanjay Chandrawansi's shop. His communication skills make every transaction effortless, and the assurance of quality means there's no risk involved. If you're in Jamshedpur, this is the place to go for all your car and bike needs."</div>
+                                    <div class="font-bold text-green-500">Karan Singh</div>
+                                    <div class="text-sm font-medium text-stone-500 hover:text-green-500"><a href="#">Sales
+                                            Railway Colony Tatnagar</a></div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+        <!--location-->
+        <div class="text-green-500 text-3xl md:text-5xl font-medium lo1">Locate Us Our Store</div>
+
+        <section class="text-gray-600 body-font relative">
+            <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+              <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+                <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>
+                <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+                  <div class="lg:w-1/2 px-6">
+                    <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
+                    <p class="mt-1">Garage gaw Bistupur Road Jamshedpur Jharkhand</p>
+                  </div>
+                  <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                    <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+                    <a class="text-green-500 leading-relaxed">example@email.com</a>
+                    <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
+                    <p class="leading-relaxed">9835964175</p>
+                  </div>
+                </div>
+              </div>
+              <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+                <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
+                <p class="leading-relaxed mb-5 text-gray-600">Please Provide Your valuable feedback</p>
+                <div class="relative mb-4">
+                  <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+                  <input type="text" id="name" name="name" class="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class="relative mb-4">
+                  <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                  <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class="relative mb-4">
+                  <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+                  <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                </div>
+                <button class="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"><a href="https://forms.gle/BNBv2KRLeEuFVuWN9">Submit Now</a></button>
+              </div>
+            </div>
+          </section>
+          <!---footer-->
+          <div class="flex justify-center items-center">
+            <div class="bg-white items-center w-full md:max-w-7xl">
+                <div
+                    class="flex flex-col justify-center items-center mt-3 space-y-2 md:mx-[50px] md:flex-row md:justify-between">
+                    <p class="text-md font-semibold text-gray-800 md:text-lg md:text-gray-500/90"> Join Our Newsletter </p>
+                    <div class="md:text-lg"> <input
+                            class="bg-gray-200/70 border drop-shadow-sm shadow-gray-700 rounded-md placeholder-slate-400 px-2 py-1 focus:outline-none focus:border-cyan-600"
+                            type="email" placeholder="E-mail Address" /> <button
+                            class="p-1 m-1 rounded-md text-white bg-blue-500 hover:text-blue-500 hover:bg-white hover:font-semibold hover:trandform ease-in-out duration-300">
+                            Subscribe </button> </div>
+                    <div class="text-center text-lg md:space-x-1"> <a
+                            class="w-9 h-10 pt-1 m-2 md:ml-2 md:mr-0 inline-block border-1 rounded-lg text-white bg-blue-500 hover:bg-white hover:text-blue-500"
+                            href="#">
+                            <li class="fa fa-twitter"></li>
+                        </a> <a
+                            class="w-9 h-10 pt-1 m-2 inline-block border-1 rounded-lg text-white bg-orange-500 hover:bg-white hover:text-orange-500"
+                            href="#">
+                            <li class="fa fa-google"></li>
+                        </a> <a
+                            class="w-9 h-10 pt-1 m-2 inline-block border-1 rounded-lg text-white bg-red-500 hover:bg-white hover:text-red-500"
+                            href="#">
+                            <li class="fa fa-linkedin"></li>
+                        </a> <a
+                            class="w-9 h-10 pt-[5px] m-2 inline-block border-1 rounded-lg text-white bg-purple-500 hover:bg-white hover:text-purple-500"
+                            href="#">
+                            <li class="fa fa-telegram"></li>
+                        </a> <a
+                            class="w-9 h-10 pt-[5px] m-2 inline-block border-1 rounded-lg text-white bg-cyan-500 hover:bg-white hover:text-cyan-500"
+                            href="#">
+                            <li class="fa fa-facebook"></li>
+                        </a> </div>
+                </div>
+                <hr class="mt-2 md:overflow-hidden" />
+                <div class="grid grid-cols-2 my-3 text-center md:grid-cols-4">
+                    <div class="flex flex-col leading-7 items-start ml-20">
+                        <h1 class="text-blue-500 text-lg font-semibold">Product</h1>
+                        <p> <a class="text-gray-500/80 hover:text-cyan-600" href="#">Features</a> </p>
+                        <p> <a class="text-gray-500/80 hover:text-cyan-600" href="#">Integrations</a> </p>
+                        
+                    </div>
+                    <div class="flex flex-col leading-7">
+                        <h1 class="text-blue-500 text-lg font-semibold">Company</h1>
+                        <p> <a class="text-gray-500/80 hover:text-cyan-600" href="#">Terms</a> </p>
+                        <p> <a class="text-gray-500/80 hover:text-cyan-600" href="#">Customers</a> </p>
+                        
+                    </div>
+                    <div class="flex flex-col my-6 leading-7 md:my-0">
+                        <h1 class="text-blue-500 text-lg font-semibold">Support</h1>
+                        <p> <a class="text-gray-500/80 hover:text-cyan-600" href="#">Community</a> </p>
+                        <p> <a class="text-gray-500/80 hover:text-cyan-600" href="#">Support Customers</a> </p>
+        
+                    </div>
+                    <div class="flex flex-col my-6 leading-7 md:my-0">
+                        <h1 class="text-blue-500 text-lg font-semibold">Contact Us</h1>
+                        <p> <a class="text-gray-500/80 hover:text-cyan-600" href="#">Support@admin.com</a> </p>
+                        <p> <a class="text-gray-500/80 hover:text-cyan-600" href="#">(+91)700-788-67-00</a> </p>
+                    </div>
+                </div>
+                <hr class="mt-2 md:invisible" />
+                <div class="flex flex-col items-center m-5 md:flex-row md:justify-between md:mx-28"> <img
+                        src="Screenshot 2024-06-05 125034.png" alt="" />
+                    <div class="mt-4 text-gray-500 font-semibold"> <a class="hover:text-blue-500 tracking-wide" href="#">Copright @SCRAPCARWALE
+                        </a> <strong>|</strong> <a class="hover:text-blue-500 tracking-normal" href="myself.html">Website Design And Managed By AShwini Kumar</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <script src="https://cdn.tailwindcss.com"></script>
+            <script src="https://use.fontawesome.com/03f8a0ebd4.js"></script> 
+       <!---JS-->
+       <script src="https://cdn.tailwindcss.com"></script>
+       <script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
+       <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+       <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+</body>
+</html>
